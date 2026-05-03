@@ -14,6 +14,7 @@ buildDrafts = false
     unsafe = true
 
 [params]
+  description = "Senior Backend Engineer based in Moscow. 7+ years building Python/Django services — from solo-founded startups to systems serving 14K+ users."
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
