@@ -10,3 +10,67 @@ buildDrafts = false
   [markup.highlight]
     style = "monokai"
     lineNos = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  homeInfoParams = false
+  disableHLJS = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Max Lyaskovskiy"
+    subtitle = "Senior Backend Engineer based in Moscow.<br>7+ years building Python/Django services — from solo-founded startups to systems serving 14K+ users."
+    imageUrl = "/images/avatar.jpg"
+    imageTitle = "Max Lyaskovskiy"
+    imageWidth = 200
+    imageHeight = 200
+    buttons = [
+      { name = "Projects", url = "/projects/" },
+      { name = "Resume (PDF)", url = "/resume.pdf" },
+    ]
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/AnyByte"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/anybyte/"
+
+[[params.socialIcons]]
+  name = "telegram"
+  url = "https://t.me/AnyByte"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:maxavatar007@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume.pdf"
+    weight = 5
