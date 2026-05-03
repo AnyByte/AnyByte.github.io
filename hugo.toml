@@ -1,3 +1,12 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://anybyte.github.io/"
+title = "Max Lyaskovskiy"
+theme = "PaperMod"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+buildDrafts = false
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
