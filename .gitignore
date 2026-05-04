@@ -3,3 +3,16 @@ resources/
 .hugo_build.lock
 .DS_Store
 *.swp
+
+# LLM / AI coding assistants — local-only, never commit
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+.claude/
+.superpowers/
+.cursor/
+.cursorrules
+.windsurfrules
+.codeium/
+.aider*
+.github/copilot-instructions.md
