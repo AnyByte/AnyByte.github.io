@@ -14,7 +14,7 @@ buildDrafts = false
     unsafe = true
 
 [params]
-  description = "Senior Backend Engineer based in Moscow. 7+ years building Python/Django services — from solo-founded startups to systems serving 14K+ users."
+  description = "Senior backend engineer in Moscow. Python and Django for ~7 years. Creator of safeway.app and artway.space."
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -28,7 +28,7 @@ buildDrafts = false
   [params.profileMode]
     enabled = true
     title = "Max Lyaskovskiy"
-    subtitle = "Senior Backend Engineer based in Moscow.<br>7+ years building Python/Django services — from solo-founded startups to systems serving 14K+ users."
+    subtitle = "Senior backend engineer in Moscow. Python and Django for ~7 years.<br>Creator of safeway.app and artway.space."
     imageUrl = "/images/avatar.jpg"
     imageTitle = "Max Lyaskovskiy"
     imageWidth = 200
